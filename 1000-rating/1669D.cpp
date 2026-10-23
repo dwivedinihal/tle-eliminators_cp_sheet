@@ -35,10 +35,10 @@ int main(){
             continue;
         }
         // Check the final segment after the loop ends
-    if ((hasR && !hasB) || (!hasR && hasB)) {
-        cout << "NO\n";
-    } else {
-        cout << "YES\n";
-    }
+        if ((hasR && !hasB) || (!hasR && hasB)) {
+            cout << "NO\n";
+        } else {
+            cout << "YES\n";
+        }
     }
 }
