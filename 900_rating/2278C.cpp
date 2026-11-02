@@ -29,7 +29,6 @@ void solve(){
         return;
     }
     cout << arr[0] + arr[n-1] - 1 << endl;;
-
 }
 int main(){
     int t;
